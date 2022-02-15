@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <title>NDHX</title>
+
+    <link rel="stylesheet" href="profile.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid my-2" id="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuToggler"
+            aria-controls="menuToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="menuToggler">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="icon-bar">
+        <a href="https://github.com/ndhx/" class="github" id="icons"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/ndhx/" class="linkedin" id="icons"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/_.nandha.__/"
+          class="instagram"
+          id="icons"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+      <div class="home page-section" id="home">
+        <h5 class="greet text-secondary">Hey there!, I'm</h5>
+        <img src="sticker.png" alt="" class="sticker d-none d-md-block" />
+        <h1 class="name">Na<span class="text-danger">ndh</span>akumar</h1>
+        <h1 class="subject text-secondary">
+          I build things for <br />
+          the web.
+        </h1>
+        <p class="description">
+          I'm a Front-end developer, focused on writing clean and efficient
+          code. <br />
+          I turn your designs and ideas into pixel-perfect products with great
+          attention <br />
+          to detail and elegant animations.
+        </p>
+        <a href="#mail" class="hireMe">Hire me ></a>
+      </div>
+      <div class="about page-section" id="about">
+        <div class="row">
+          <div class="col-md-4 displayBorder">
+            <img
+              src="Nandha_beach.jpeg"
+              alt=""
+              class="displayPicture img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <h1 class="titleAbout">About me.</h1>
+            <p class="aboutDescription">
+              Hello! My name is Nandha, I enjoy coding and it's the perfect
+              hobby for me. I design and develop new products and improve upon
+              existing products. I'm a Complex problem-solver with an analytical
+              and driven mindset, Dedicated to achieving development objectives
+              according to schedules while producing impeccable code.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="work" class="work row page-section">
+        <h1 class="titleWork">Work Flow.</h1>
+        <div class="col-md-2 card discover">
+          <div class="card-body">
+            <h5 class="card-title">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 5C12.5913 5 14.1174 5.63214 15.2426 6.75736C16.3679 7.88258 17 9.4087 17 11C17 13.22 15.79 15.16 14 16.2V18C14 18.2652 13.8946 18.5196 13.7071 18.7071C13.5196 18.8946 13.2652 19 13 19H9C8.73478 19 8.48043 18.8946 8.29289 18.7071C8.10536 18.5196 8 18.2652 8 18V16.2C6.21 15.16 5 13.22 5 11C5 9.4087 5.63214 7.88258 6.75736 6.75736C7.88258 5.63214 9.4087 5 11 5ZM13 20V21C13 21.2652 12.8946 21.5196 12.7071 21.7071C12.5196 21.8946 12.2652 22 12 22H10C9.73478 22 9.48043 21.8946 9.29289 21.7071C9.10536 21.5196 9 21.2652 9 21V20H13ZM19 10H22V12H19V10ZM0 10H3V12H0V10ZM12 0V3H10V0H12ZM3.92 2.5L6.05 4.64L4.63 6.05L2.5 3.93L3.92 2.5ZM15.95 4.63L18.07 2.5L19.5 3.93L17.37 6.05L15.95 4.63Z"
+                  fill="#00AEFF"
+                />
+              </svg>
+            </h5>
+            <h6 class="card-subtitle mb-2">Discover</h6>
+            <p class="card-text">
+              I conduct user research to identify the problem I want to solve.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 card plan">
+          <div class="card-body">
+            <h5 class="card-title">
+              <svg
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.04 11.13C18.18 11.13 18.31 11.19 18.42 11.3L19.7 12.58C19.92 12.79 19.92 13.14 19.7 13.35L18.7 14.35L16.65 12.3L17.65 11.3C17.76 11.19 17.9 11.13 18.04 11.13ZM16.07 12.88L18.12 14.93L12.06 21H10V18.94L16.07 12.88ZM0 5V3H2V2C2 1.46957 2.21071 0.960859 2.58579 0.585786C2.96086 0.210714 3.46957 0 4 0H10V7L12.5 5.5L15 7V0H16C17.05 0 18 0.95 18 2V8L8 18V20H4C2.95 20 2 19.05 2 18V17H0V15H2V11H0V9H2V5H0ZM2 5H4V3H2V5ZM2 9V11H4V9H2ZM2 15V17H4V15H2Z"
+                  fill="#FFE240"
+                />
+              </svg>
+            </h5>
+            <h6 class="card-subtitle mb-2">Plan</h6>
+            <p class="card-text">
+              I brainstorm possible design solutions to the identified problem.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 card sketch">
+          <div class="card-body">
+            <h5 class="card-title">
+              <svg
+                width="20"
+                height="18"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.74983 17.85C9.52983 17.15 9.13983 15.22 8.23983 14C7.34983 12.75 6.11983 11.89 4.87983 11.06C3.99509 10.5023 3.20513 9.8069 2.53983 8.99997C2.25983 8.66997 1.68983 8.05997 2.26983 7.93997C2.85983 7.81997 3.87983 8.39997 4.39983 8.61997C5.30983 8.99997 6.20983 9.43997 7.04983 9.95997L8.05983 8.25997C6.49983 7.22997 4.49983 6.31997 2.63983 6.04997C1.57983 5.88997 0.459833 6.10997 0.099833 7.25997C-0.220167 8.24997 0.289833 9.24997 0.869833 10.03C2.23983 11.86 4.36983 12.74 5.95983 14.32C6.29983 14.65 6.70983 15.04 6.90983 15.5C7.11983 15.94 7.06983 15.97 6.59983 15.97C5.35983 15.97 3.80983 15 2.79983 14.36L1.78983 16.06C3.31983 17 5.87983 18.47 7.74983 17.85ZM18.8398 2.24997C19.0598 2.02997 19.0598 1.66997 18.8398 1.45997L17.5398 0.159972C17.4351 0.0590267 17.2953 0.00262451 17.1498 0.00262451C17.0044 0.00262451 16.8646 0.0590267 16.7598 0.159972L15.7398 1.17997L17.8198 3.25997L18.8398 2.24997ZM8.99983 7.91997V9.99997H11.0798L17.2298 3.84997L15.1498 1.76997L8.99983 7.91997Z"
+                  fill="#E31F71"
+                />
+              </svg>
+            </h5>
+            <h6 class="card-subtitle mb-2">Sketch</h6>
+            <p class="card-text">
+              I create wireframes and sketches of the product I'm about to
+              design.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 card design">
+          <div class="card-body">
+            <h5 class="card-title">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.5 0C6.95869 0 8.35764 0.579463 9.38909 1.61091C10.4205 2.64236 11 4.04131 11 5.5C11 6.83 10.53 8.05 9.74 9H18V18H9V9.74C8.05 10.53 6.83 11 5.5 11C4.04131 11 2.64236 10.4205 1.61091 9.38909C0.579463 8.35764 0 6.95869 0 5.5C0 4.04131 0.579463 2.64236 1.61091 1.61091C2.64236 0.579463 4.04131 0 5.5 0Z"
+                  fill="#FFE240"
+                />
+              </svg>
+            </h5>
+            <h6 class="card-subtitle mb-2">Design</h6>
+            <p class="card-text">
+              I create high fidelity design and prototype the screens.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2 card implement">
+          <div class="card-body">
+            <h5 class="card-title">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 14H10.5L12.5 12H18V14ZM6 14V11.5L12.88 4.64C13.07 4.45 13.39 4.45 13.59 4.64L15.35 6.41C15.55 6.61 15.55 6.92 15.35 7.12L8.47 14H6ZM20 2H4C3.46957 2 2.96086 2.21071 2.58579 2.58579C2.21071 2.96086 2 3.46957 2 4V22L6 18H20C20.5304 18 21.0391 17.7893 21.4142 17.4142C21.7893 17.0391 22 16.5304 22 16V4C22 3.46957 21.7893 2.96086 21.4142 2.58579C21.0391 2.21071 20.5304 2 20 2Z"
+                  fill="#0057FF"
+                />
+              </svg>
+            </h5>
+            <h6 class="card-subtitle mb-2">Implement</h6>
+            <p class="card-text">
+              After designing, I start implementing those designs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="portfolio page-section row">
+        <h1 class="titlePortfolio">Portfolio.</h1>
+        <div class="col-lg-4 cardPortfolio">
+          <div class="project1">
+            <div class="screenshot">
+              <img href="#" src="Screenshot (2).png" class="image img-fluid" />
+            </div>
+            <div class="content">
+              <h3 class="projectHeading">GokuArts Website</h3>
+              <p class="projectText">
+                GokuArts is an art page on instagram. This website was designed
+                to increase the audience for the page.
+              </p>
+              <button class="visit" id="btn1">
+                <a href="https://gokuarts.netlify.app/" class="btn">Visit ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cardPortfolio">
+          <div class="project1">
+            <div class="screenshot">
+              <img href="#" src="Screenshot (5).png" class="image img-fluid" />
+            </div>
+            <div class="content">
+              <h3 class="projectHeading">Speech To Text Converter</h3>
+              <p class="projectText">
+                "Speech To Text" is my experimental application. This
+                application was build to make the typewriting work easier.
+              </p>
+              <button class="visit" id="btn2">
+                <a href="https://speechconvertor.netlify.app/" class="btn"
+                  >Visit ></a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cardPortfolio">
+          <div class="project1">
+            <div class="screenshot">
+              <img href="#" src="Screenshot (4).png" class="image img-fluid" />
+            </div>
+            <div class="content">
+              <h3 class="projectHeading">SayCheese Website</h3>
+              <p class="projectText">
+                SayCheese is a online food company. This website was designed to
+                reach more customers through online.
+              </p>
+              <button class="visit" id="btn3">
+                <a class="btn" onclick="sorry()">Visit ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact page-section">
+        <h1 class="titleContact">Get in touch.</h1>
+        <p class="contactText">
+          I'm availbale to work on your projects and bring your ideas to life,
+          I'm just a click away.
+        </p>
+        <button class="hello" id="mail">
+          <a href="mailto:nandhank09@outlook.com" class="btnhello"
+            >Say Hello ></a
+          >
+        </button>
+      </div>
+      <p class="copyRights">&copy; NDHX, Designed & Built by Nandha.</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      /* Code for changing active 
+      link on clicking */
+      let btns = $("#container .navbar-nav .nav-link");
+
+      for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+
+          current[0].className = current[0].className.replace(" active", "");
+
+          this.className += " active";
+        });
+      }
+
+      /* Code for changing active 
+      link on Scrolling */
+      $(window)
+        .scroll(function () {
+          var distance = $(window).scrollTop();
+          $(".page-section").each(function (i) {
+            if ($(this).position().top <= distance + 250) {
+              $(".navbar-nav a.active").removeClass("active");
+
+              $(".navbar-nav a").eq(i).addClass("active");
+            }
+          });
+        })
+        .scroll();
+    </script>
+    <script>
+      function sorry() {
+        window.alert("Sorry, This site is under construction.");
+      }
+    </script>
+  </body>
+</html>
